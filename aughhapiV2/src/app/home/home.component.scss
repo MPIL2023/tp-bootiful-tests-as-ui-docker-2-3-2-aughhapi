@@ -4,4 +4,16 @@
     align-items: center;
     height: 100vh; /* Sets container to full viewport height */
 }
-  
+
+input, select, textarea{
+    background: transparent;
+    border: 2px solid white;
+}
+
+textarea:focus, input:focus {
+    color: white;
+}
+
+button{
+    size: 200px;
+}

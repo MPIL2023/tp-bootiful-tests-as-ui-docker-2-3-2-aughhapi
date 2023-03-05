@@ -1,12 +1,12 @@
-  <span>
-    <span><p>Current number: {{ currentBase }}</p></span>
+<span>
+  <span id="current"><p>Current number:{{ currentBase }}</p></span>
 
-    <span>
-        <form (ngSubmit)="addNumber()">
-        <label for="addNum">Add number:</label>
-        <input type="number" id="addNum" name="addNum" [(ngModel)]="newNumber" required>
-        <button type="submit">Add</button>
-      </form>
-    </span>
-    
+  <span>
+      <form (ngSubmit)="addNumber()">
+      <label for="addNum">Add number:</label>
+      <input type="number" id="addNum" name="addNum" [(ngModel)]="newNumber" required>
+      <button type="submit" id="addButton">Add</button>
+    </form>
   </span>
+
+</span>
